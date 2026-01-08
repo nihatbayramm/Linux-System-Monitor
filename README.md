@@ -1,25 +1,55 @@
-# Linux System Monitor
+# 🖥️ Linux System Monitor  
+> Gerçek zamanlı • Animasyonlu • Gösterişli sistem izleme aracı
 
-Bu proje, Linux sisteminin temel kaynaklarını izleyen bir araçtır. Kullanıcılar, CPU, bellek, disk ve ağ kullanımını görsel grafiklerle takip edebilirler. Program, bu verileri gerçek zamanlı olarak toplar ve animasyonlu grafiklerde gösterir.
+<p align="center">
+  <img src="https://img.shields.io/badge/Linux-System%20Monitor-black?style=for-the-badge&logo=linux">
+  <img src="https://img.shields.io/badge/Python-3.9+-blue?style=for-the-badge&logo=python">
+  <img src="https://img.shields.io/badge/Real--Time-Animated-green?style=for-the-badge">
+</p>
 
-## Özellikler
+---
 
-- **CPU Kullanımı**: Gerçek zamanlı CPU kullanım yüzdesi.
-- **Bellek Kullanımı**: Sistemdeki toplam bellek kullanım oranı.
-- **Disk Kullanımı**: Diskteki toplam kullanım oranı.
-- **Ağ Kullanımı**: Gönderilen ve alınan ağ verisi miktarı (MB cinsinden).
+## 🚀 Proje Tanımı
 
-Veriler, her saniye güncellenir ve grafikler, son 50 veri noktasıyla güncel tutulur. Yüzde değerleri, her grafik üzerine eklenir.
+**Linux System Monitor**, Linux sistemlerde  
+CPU, bellek, disk ve ağ kullanımını  
+**gerçek zamanlı ve animasyonlu grafiklerle** izleyen hafif ama etkili bir sistem izleme uygulamasıdır.
 
-## Gereksinimler
+Veriler saniyede bir güncellenir ve grafikler son **50 veri noktası** ile dinamik olarak kaydırılır.
 
-Proje çalıştırmak için aşağıdaki kütüphanelerin yüklü olması gerekmektedir:
+---
 
-- **psutil**: Sistem bilgilerini toplamak için.
-- **matplotlib**: Verilerin görselleştirilmesi için.
-- **tkinter**: GUI arayüzü (bu proje için opsiyonel).
+## ✨ Özellikler
 
-Aşağıdaki komutla gerekli kütüphaneleri yükleyebilirsiniz:
+- 🧠 **CPU Kullanımı** – Anlık CPU kullanım yüzdesi  
+- 🧮 **Bellek Kullanımı** – Toplam RAM kullanım oranı  
+- 💾 **Disk Kullanımı** – Disk doluluk yüzdesi  
+- 🌐 **Ağ Kullanımı** – Gönderilen & alınan veri (MB)  
+- 🎥 **Animasyonlu Grafikler**  
+- ⏱️ **1 saniyede bir güncelleme**
+
+---
+
+## 📊 İzlenen Kaynaklar
+
+| Kaynak | Açıklama |
+|------|---------|
+| CPU | Gerçek zamanlı kullanım (%) |
+| RAM | Bellek kullanım oranı |
+| Disk | Toplam disk doluluk yüzdesi |
+| Network | Gönderilen / alınan veri (MB) |
+
+---
+
+## 🧰 Gereksinimler
+
+Aşağıdaki kütüphaneler gereklidir:
+
+- **psutil** – Sistem bilgilerini almak için  
+- **matplotlib** – Grafik ve animasyonlar  
+- **tkinter** – (Opsiyonel) GUI arayüzü  
+
+### 📦 Kurulum
 
 ```bash
 pip install psutil matplotlib
