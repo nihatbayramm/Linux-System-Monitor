@@ -53,3 +53,13 @@ Aşağıdaki kütüphaneler gereklidir:
 
 ```bash
 pip install psutil matplotlib
+```
+
+---
+
+## ▶️ Çalıştırma
+
+Uygulamayı başlatmak için:
+
+```bash
+python system_monitor.py
